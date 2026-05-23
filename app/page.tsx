@@ -13,7 +13,7 @@ export default function Home() {
         </p>
         <div className="links fade-up fade-up-4">
           <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           <a href="mailto:surabhi.jain1810@gmail.com">Email</a>
         </div>
