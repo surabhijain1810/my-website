@@ -1,0 +1,120 @@
+body {
+
+  margin: 0;
+
+  background: #0a0a0a;
+
+  color: #e5e5e5;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
+
+  line-height: 1.6;
+
+}
+
+.page {
+  padding: 60px;
+}
+
+.hero {
+  max-width: 800px;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #bbb;
+  max-width: 600px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.links a {
+
+  color: #e5e5e5;
+
+  text-decoration: none;
+
+  padding-bottom: 2px;
+
+  border-bottom: 1px solid #333;
+
+  transition: all 0.2s ease;
+
+}
+
+.links a:hover {
+
+  border-bottom: 1px solid #fff;
+
+}
+
+.section {
+  margin-top: 80px;
+  max-width: 800px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 12px;
+  background: #111;
+}
+
+footer {
+  margin-top: 100px;
+  color: #666;
+}
+
+h1, h2, h3 {
+
+  letter-spacing: -0.02em;
+
+}
+
+.section h2 {
+
+  font-size: 20px;
+
+  margin-bottom: 12px;
+
+  color: #ffffff;
+
+}
+
+.card h3 {
+
+  margin: 0 0 10px 0;
+
+  font-size: 18px;
+
+}
+
+.card p {
+
+  margin: 0;
+
+  color: #aaa;
+
+}
