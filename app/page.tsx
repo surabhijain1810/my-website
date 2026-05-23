@@ -229,7 +229,7 @@ export default function Home() {
           Open to interesting conversations about data, ML systems, or new opportunities.
         </p>
         <div className="links">
-          <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </section>
 
