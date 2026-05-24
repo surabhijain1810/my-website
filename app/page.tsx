@@ -11,13 +11,7 @@ export default function Home() {
           LLM evaluation frameworks, and AI-powered decision tools. 10 years
           turning data into product impact.
         </p>
-        <div className="links fade-up fade-up-4"> 
-          <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:surabhi.jain1810@gmail.com">Email</a>
-          <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
       </section>
-
       {/* ── Impact ───────────────────────────────────────── */}
       <section className="section" id="impact" aria-label="Impact highlights">
         <h2>Impact at a glance</h2>
@@ -237,6 +231,7 @@ export default function Home() {
         </p>
         <div className="links">
           <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:surabhi.jain1810@gmail.com">Email</a>
         </div>
       </section>
 
