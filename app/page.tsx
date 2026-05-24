@@ -11,11 +11,10 @@ export default function Home() {
           LLM evaluation frameworks, and AI-powered decision tools. 10 years
           turning data into product impact.
         </p>
-        <div className="links fade-up fade-up-4">
-          <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <div className="links fade-up fade-up-4"> 
           <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           <a href="mailto:surabhi.jain1810@gmail.com">Email</a>
+          <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </section>
 
