@@ -25,19 +25,113 @@ export default function Home() {
         <div className="impact-grid">
           <div className="impact-card">
             <div className="impact-num" style={{ color: "#8B5CF6" }}>80→90%</div>
-            <div className="impact-label">LLM response accuracy</div>
-          </div>
-          <div className="impact-card">
-            <div className="impact-num" style={{ color: "#60A5FA" }}>55%</div>
-            <div className="impact-label">Faster query runtime</div>
-          </div>
-          <div className="impact-card">
-            <div className="impact-num" style={{ color: "#34D399" }}>300%</div>
-            <div className="impact-label">Increase in coupon clips</div>
+            <div className="impact-label">LLM agent response accuracy</div>
           </div>
           <div className="impact-card">
             <div className="impact-num" style={{ color: "#F59E0B" }}>6h→min</div>
-            <div className="impact-label">Campaign reporting time</div>
+            <div className="impact-label">Automation & scale</div>
+          </div>
+          <div className="impact-card">
+            <div className="impact-num" style={{ color: "#34D399" }}>30%</div>
+            <div className="impact-label">Advertising Investment increase</div>
+          </div>
+          <div className="impact-card">
+            <div className="impact-num" style={{ color: "#60A5FA" }}>29→9%</div>
+            <div className="impact-label">Subscription order rejection rate</div>
+          </div>
+
+          
+        </div>
+      </section>
+
+      {/* ── Projects ─────────────────────────────────────── */}
+      <section className="section" id="projects" aria-label="Featured projects">
+        <h2>Featured Projects</h2>
+        <div className="grid">
+
+          <div className="card">
+            <h3>AI Agent and LLM Evaluation Framework</h3>
+            <p>Built a RAG-powered AI agent for natural language insights across multiple data sources, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 80% to 90% and supported Responsible AI standards.</p>
+            <div className="project-tag-row">
+              <span className="project-tag">RAG</span>
+              <span className="project-tag">LLM</span>
+              <span className="project-tag">Prompt Engineering</span>
+              <span className="project-tag">LLM Evaluation</span>
+              <span className="project-tag">Responsible AI</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <h3>Marketing Attribution Model</h3>
+            <p>Invented the attribution framework for Amazon's Co-op campaigns — defining Attributed Sales, Lift%, and ROAS from the ground up. Automated reporting cut turnaround from 6 hours to minutes, directly improving how Amazon measures and grows brand partnerships</p>
+            <div className="project-tag-row">
+              <span className="project-tag">ETL</span>
+              <span className="project-tag">Amazon Redshift</span>
+              <span className="project-tag">Data Analysis</span>
+              <span className="project-tag">Data Modeling</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <h3>In-Store Ads Datamart</h3>
+            <p>Built a full analytics datamart for Amazon's In-Store Ads from the ground up — dimensional models, fact tables, and Airflow-integrated ETL pipelines. Optimized SQL queries delivered 55% faster runtime and 80% faster ad-hoc processing, directly enabling the Digital Signage Ads reporting launch</p>
+            <div className="project-tag-row">
+              <span className="project-tag">ETL</span>
+              <span className="project-tag">Airflow</span>
+              <span className="project-tag">Spark</span>
+              <span className="project-tag">AWS</span>
+              <span className="project-tag">Data Modeling</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── Skills ───────────────────────────────────────── */}
+      <section className="section" id="skills" aria-label="Technical skills">
+        <h2>Skills &amp; Stack</h2>
+        <div className="skills-grid">
+          <div className="skill-group">
+            <div className="skill-group-title">Cloud &amp; Infra</div>
+            <div className="skill-tags">
+              <span className="skill-tag">AWS</span>
+              <span className="skill-tag">Google BigQuery</span>
+              <span className="skill-tag">Amazon Marketing Cloud</span>
+              <span className="skill-tag">Apache Spark</span>
+              <span className="skill-tag">Hadoop</span>
+              <span className="skill-tag">Airflow</span>
+              <span className="skill-tag">Teradata</span>
+            </div>
+          </div>
+          <div className="skill-group">
+            <div className="skill-group-title">ML &amp; AI</div>
+            <div className="skill-tags">
+              <span className="skill-tag">RAG</span>
+              <span className="skill-tag">Prompt Engineering</span>
+              <span className="skill-tag">LLM Evaluation</span>
+              <span className="skill-tag">Machine Learning</span>
+              <span className="skill-tag">Linear Regression</span>
+              <span className="skill-tag">Logistic Regression</span>
+              <span className="skill-tag">K-means clustering</span>
+            </div>
+          </div>
+          <div className="skill-group">
+            <div className="skill-group-title">Visualization</div>
+            <div className="skill-tags">
+              <span className="skill-tag">Tableau</span>
+              <span className="skill-tag">Amazon QuickSight</span>
+              <span className="skill-tag">Jupyter Notebook</span>
+              <span className="skill-tag">ETL/ELT Pipelines</span>
+              <span className="skill-tag">Data Modeling</span>
+            </div>
+          </div>
+          <div className="skill-group">
+            <div className="skill-group-title">Languages</div>
+            <div className="skill-tags">
+              <span className="skill-tag">SQL</span>
+              <span className="skill-tag">Python</span>
+              <span className="skill-tag">SAS</span>
+            </div>
           </div>
         </div>
       </section>
@@ -133,92 +227,6 @@ export default function Home() {
             </div>
 
           </div>
-        </div>
-      </section>
-
-      {/* ── Skills ───────────────────────────────────────── */}
-      <section className="section" id="skills" aria-label="Technical skills">
-        <h2>Skills &amp; Stack</h2>
-        <div className="skills-grid">
-          <div className="skill-group">
-            <div className="skill-group-title">Languages</div>
-            <div className="skill-tags">
-              <span className="skill-tag">SQL</span>
-              <span className="skill-tag">Python</span>
-              <span className="skill-tag">SAS</span>
-            </div>
-          </div>
-          <div className="skill-group">
-            <div className="skill-group-title">Cloud &amp; Infra</div>
-            <div className="skill-tags">
-              <span className="skill-tag">AWS</span>
-              <span className="skill-tag">Google BigQuery</span>
-              <span className="skill-tag">Apache Spark</span>
-              <span className="skill-tag">Hadoop</span>
-              <span className="skill-tag">Airflow</span>
-              <span className="skill-tag">Teradata</span>
-            </div>
-          </div>
-          <div className="skill-group">
-            <div className="skill-group-title">ML &amp; AI</div>
-            <div className="skill-tags">
-              <span className="skill-tag">RAG</span>
-              <span className="skill-tag">Prompt Engineering</span>
-              <span className="skill-tag">LLM Evaluation</span>
-              <span className="skill-tag">Machine Learning</span>
-              <span className="skill-tag">Linear Regression</span>
-              <span className="skill-tag">Logistic Regression</span>
-              <span className="skill-tag">K-means clustering</span>
-            </div>
-          </div>
-          <div className="skill-group">
-            <div className="skill-group-title">Visualization</div>
-            <div className="skill-tags">
-              <span className="skill-tag">Tableau</span>
-              <span className="skill-tag">Amazon QuickSight</span>
-              <span className="skill-tag">Jupyter Notebook</span>
-              <span className="skill-tag">ETL/ELT Pipelines</span>
-              <span className="skill-tag">Data Modeling</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Projects ─────────────────────────────────────── */}
-      <section className="section" id="projects" aria-label="Featured projects">
-        <h2>Featured Projects</h2>
-        <div className="grid">
-
-          <div className="card">
-            <h3>AI Agent for Books Recommendations</h3>
-            <p>RAG-powered agent integrating multiple data sources so stakeholders can self-serve insights via natural language — turnaround from hours to minutes.</p>
-            <div className="project-tag-row">
-              <span className="project-tag">RAG</span>
-              <span className="project-tag">LLM</span>
-              <span className="project-tag">Amazon</span>
-            </div>
-          </div>
-
-          <div className="card">
-            <h3>LLM Evaluation Framework</h3>
-            <p>Benchmark dataset and LLM-as-judge pipeline that improved response accuracy from 80% to 90%. Scaled via a prompt farm; used to set Responsible AI standards.</p>
-            <div className="project-tag-row">
-              <span className="project-tag">LLM Eval</span>
-              <span className="project-tag">Benchmarking</span>
-              <span className="project-tag">Responsible AI</span>
-            </div>
-          </div>
-
-          <div className="card">
-            <h3>In-Store Ads Datamart</h3>
-            <p>Dimensional and fact models with Airflow-integrated ETL — 55% faster query runtime and 80% faster ad-hoc processing, enabling Ads launch approval.</p>
-            <div className="project-tag-row">
-              <span className="project-tag">ETL</span>
-              <span className="project-tag">Airflow</span>
-              <span className="project-tag">Spark</span>
-            </div>
-          </div>
-
         </div>
       </section>
 
