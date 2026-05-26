@@ -25,9 +25,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav aria-label="Main navigation">
               <ul className="nav-links">
                 <li><a href="#impact">Impact</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>

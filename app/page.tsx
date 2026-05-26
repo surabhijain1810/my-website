@@ -17,7 +17,7 @@ export default function Home() {
         <h2>Impact at a glance</h2>
         <div className="impact-grid">
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#8B5CF6" }}>80→90%</div>
+            <div className="impact-num" style={{ color: "#8B5CF6" }}>78→90%</div>
             <div className="impact-label">LLM agent response accuracy</div>
           </div>
           <div className="impact-card">
@@ -29,7 +29,7 @@ export default function Home() {
             <div className="impact-label">Advertising Investment increase</div>
           </div>
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#60A5FA" }}>29→9%</div>
+            <div className="impact-num" style={{ color: "#60A5FA" }}>29%→9%</div>
             <div className="impact-label">Subscription order rejection rate</div>
           </div>
 
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="card">
             <h3>AI Agent and LLM Evaluation Framework</h3>
-            <p>Built a RAG-powered AI agent for natural language insights across multiple data sources, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 80% to 90% and supported Responsible AI standards.</p>
+            <p>Built a RAG-powered AI agent integrating multiple data sources for stakeholders to self-serve insights via natural language, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 80% to 90% and supported Responsible AI standards.</p>
             <div className="project-tag-row">
               <span className="project-tag">RAG</span>
               <span className="project-tag">LLM</span>
