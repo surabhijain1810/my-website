@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="spine-role">Senior Business Analyst</div>
                 <div className="spine-period">Jan 2019 – May 2021</div>
                 <ul className="exp-bullets">
-                  <li>Built customer analytics and experimentation systems for Subscribe & Save and Coupons, including a K-means segmentation model that significantly reduced order rejection rates and improved targeting performance. Also drove push notification optimization through A/B testing and cohort analysis, increasing coupon engagement, and automated vendor performance dashboards to streamline reporting and reduce manual effor</li>
+                  <li>Built customer analytics and experimentation systems for Subscribe & Save and Coupons, including a K-means segmentation model that significantly reduced order rejection rates and improved targeting performance. Also drove push notification optimization through A/B testing and cohort analysis, increasing coupon engagement, and automated vendor performance dashboards to streamline reporting and reduce manual effort</li>
                 </ul>
               </div>
             </div>
