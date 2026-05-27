@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* ── Hero ─────────────────────────────────────────── */}
       <section className="hero" aria-label="Introduction">
-        <p className="kicker fade-up fade-up-1">Data · Analytics · ML Systems</p>
+        <p className="kicker fade-up fade-up-1">Data · Analytics · AI Systems</p>
         <h1 className="fade-up fade-up-2">Surabhi Jain</h1>
         <p className="subtitle fade-up fade-up-3">
           Senior BI Engineer at Amazon building scalable analytics systems,
@@ -21,7 +21,7 @@ export default function Home() {
             <div className="impact-label">LLM agent response accuracy</div>
           </div>
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#F59E0B" }}>6h→min</div>
+            <div className="impact-num" style={{ color: "#F59E0B" }}>6h→mins</div>
             <div className="impact-label">Automation & scale</div>
           </div>
           <div className="impact-card">
@@ -29,7 +29,7 @@ export default function Home() {
             <div className="impact-label">Advertising Investment increase</div>
           </div>
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#60A5FA" }}>29%→9%</div>
+            <div className="impact-num" style={{ color: "#60A5FA" }}>29→9%</div>
             <div className="impact-label">Subscription order rejection rate</div>
           </div>
 
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="card">
             <h3>AI Agent and LLM Evaluation Framework</h3>
-            <p>Built a RAG-powered AI agent integrating multiple data sources for stakeholders to self-serve insights via natural language, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 80% to 90% and supported Responsible AI standards.</p>
+            <p>Built a RAG-powered AI agent integrating multiple data sources for stakeholders to self-serve insights via natural language, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 78% to 90% and supported Responsible AI standards.</p>
             <div className="project-tag-row">
               <span className="project-tag">RAG</span>
               <span className="project-tag">LLM</span>
@@ -123,7 +123,6 @@ export default function Home() {
             <div className="skill-tags">
               <span className="skill-tag">SQL</span>
               <span className="skill-tag">Python</span>
-              <span className="skill-tag">SAS</span>
             </div>
           </div>
         </div>
