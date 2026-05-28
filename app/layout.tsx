@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     locale: "en_CA",
     images: [
       {
-        url: "/web-logo.png", // your logo or preview image
+        url: "/og-image.png", // your logo or preview image
         width: 1200,
         height: 630,
       },
