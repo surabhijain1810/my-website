@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function Home() {
   return (
     <div className="page">
@@ -21,11 +23,11 @@ export default function Home() {
             <div className="impact-label">LLM agent response accuracy</div>
           </div>
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#F59E0B" }}>6h→mins</div>
-            <div className="impact-label">Automation & scale</div>
+            <div className="impact-num" style={{ color: "#F59E0B" }}>days→mins</div>
+            <div className="impact-label">Campaign Reporting time</div>
           </div>
           <div className="impact-card">
-            <div className="impact-num" style={{ color: "#34D399" }}>30%</div>
+            <div className="impact-num" style={{ color: "#34D399" }}>+30%</div>
             <div className="impact-label">Increase in Advertising Investment</div>
           </div>
           <div className="impact-card">
@@ -56,7 +58,7 @@ export default function Home() {
 
           <div className="card">
             <h3>Marketing Attribution Model</h3>
-            <p>Invented the attribution framework for Amazon's Co-op campaigns — defining Attributed Sales, Lift%, and ROAS from the ground up. Automated reporting cut turnaround from 6 hours to minutes, directly improving how Amazon measures and grows brand partnerships</p>
+            <p>Invented the attribution framework for Amazon's Co-op campaigns — defining Attributed Sales, Lift%, and ROAS from the ground up. Automated reporting cut turnaround from days to minutes, directly improving how Amazon measures and grows brand partnerships</p>
             <div className="project-tag-row">
               <span className="project-tag">ETL</span>
               <span className="project-tag">Amazon Redshift</span>
@@ -229,21 +231,32 @@ export default function Home() {
       </section>
 
       {/* ── Contact ──────────────────────────────────────── */}
-      <section className="section" id="contact" aria-label="Contact">
-        <h2>Get in touch</h2>
-        <p className="contact-blurb">
-          Open to interesting conversations about data, ML systems, or new opportunities.
-        </p>
-        <div className="links">
-          <a href="https://www.linkedin.com/in/surabhi-jain-88812367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:surabhi.jain1810@gmail.com">Email</a>
-        </div>
-      </section>
+<section className="section" id="contact" aria-label="Contact">
+  <h2>Get in touch</h2>
+
+  <p className="contact-blurb">
+    Open to interesting conversations about data, ML systems, or new opportunities.
+  </p>
+
+  <div className="links">
+    <a
+      href="https://www.linkedin.com/in/surabhi-jain-88812367/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      LinkedIn
+    </a>
+  </div>
+
+  {/* NEW FORM ADDED BELOW */}
+  <div style={{ marginTop: "3rem" }}>
+    <ContactForm />
+  </div>
+</section>
 
       {/* ── Footer ───────────────────────────────────────── */}
       <footer>
         <span>© 2026 Surabhi Jain · Toronto, Canada</span>
-        <span>Built with Next.js</span>
       </footer>
 
     </div>
