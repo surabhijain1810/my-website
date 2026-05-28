@@ -5,10 +5,10 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Surabhi Jain — AI & Data Engineer",
   description:
-    "Senior BI Engineer at Amazon building scalable analytics systems, LLM evaluation frameworks, and ML-powered decision tools. Based in Toronto.",
+    "Senior Engineer at Amazon building scalable analytics systems, LLM evaluation frameworks, and ML-powered decision tools. Based in Toronto.",
   openGraph: {
     title: "Surabhi Jain — AI & Data Engineer",
-    description: "Senior BI Engineer at Amazon. 10 years turning data into product impact.",
+    description: "Senior Engineer at Amazon. 10 years turning data into product impact.",
     url: "https://www.surabhijain.ca",
     siteName: "Surabhi Jain",
     locale: "en_CA",
