@@ -21,7 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="nav">
           <div className="nav-inner">
-            <a href="#" className="nav-logo">Surabhi Jain</a>
+            <a href="#" className="nav-logo">
+              <img src="/logo.svg" alt="Surabhi Jain Logo" className="logo-img" />              
+            </a>
             <nav aria-label="Main navigation">
               <ul className="nav-links">
                 <li><a href="#impact">Impact</a></li>

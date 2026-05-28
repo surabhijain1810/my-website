@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img">
+  <title>Surabhi Jain — bar chart cat logo</title>
+  <desc>Six vertical bars of increasing then decreasing height form a cat silhouette, with triangular ears on the two tallest bars, glowing eyes, and a curved teal tail</desc>
+
+  <!-- bars -->
+  <rect x="8"  y="82" width="13" height="28" rx="3" fill="#C4B5FD"/>
+  <rect x="25" y="64" width="13" height="46" rx="3" fill="#A78BFA"/>
+  <rect x="42" y="44" width="13" height="66" rx="3" fill="#8B5CF6"/>
+  <rect x="59" y="34" width="13" height="76" rx="3" fill="#7C3AED"/>
+  <rect x="76" y="50" width="13" height="60" rx="3" fill="#60A5FA"/>
+  <rect x="93" y="68" width="13" height="42" rx="3" fill="#93C5FD"/>
+
+  <!-- ears -->
+  <polygon points="42,44 36,24 55,38" fill="#7C3AED"/>
+  <polygon points="72,34 68,14 82,28" fill="#3B82F6"/>
+
+  <!-- eyes -->
+  <ellipse cx="49" cy="56" rx="3.5" ry="3.5" fill="white"/>
+  <ellipse cx="49" cy="56" rx="1.5" ry="1.5" fill="#1E1B4B"/>
+  <ellipse cx="66" cy="50" rx="3.5" ry="3.5" fill="white"/>
+  <ellipse cx="66" cy="50" rx="1.5" ry="1.5" fill="#1E1B4B"/>
+
+  <!-- nose -->
+  <circle cx="57" cy="65" r="2.5" fill="#7C3AED" opacity="0.5"/>
+
+  <!-- whiskers -->
+  <line x1="32" y1="67" x2="46" y2="63" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="32" y1="70" x2="46" y2="68" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="68" y1="63" x2="82" y2="67" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="68" y1="68" x2="82" y2="70" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- tail -->
+  <path d="M106 90 Q118 72 114 54 Q110 40 100 46" fill="none" stroke="#34D399" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="100" cy="46" r="3" fill="#34D399"/>
+
+  <!-- axes -->
+  <line x1="4" y1="110" x2="116" y2="110" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="4" y1="110" x2="4"   y2="30"  stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="4"  y1="110" x2="1"  y2="104" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="4"  y1="110" x2="7"  y2="104" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="4"  y1="30"  x2="1"  y2="36"  stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="4"  y1="30"  x2="7"  y2="36"  stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="116" y1="110" x2="110" y2="107" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="116" y1="110" x2="110" y2="113" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+</svg>

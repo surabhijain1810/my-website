@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="impact-card">
             <div className="impact-num" style={{ color: "#34D399" }}>30%</div>
-            <div className="impact-label">Advertising Investment increase</div>
+            <div className="impact-label">Increase in Advertising Investment</div>
           </div>
           <div className="impact-card">
             <div className="impact-num" style={{ color: "#60A5FA" }}>29→9%</div>
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="card">
             <h3>AI Agent and LLM Evaluation Framework</h3>
-            <p>Built a RAG-powered AI agent integrating multiple data sources for stakeholders to self-serve insights via natural language, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 78% to 90% and supported Responsible AI standards.</p>
+            <p>Built a RAG-powered AI agent integrating multiple data sources to self-serve insights via natural language, reducing analysis turnaround from hours to minutes. Developed an LLM evaluation framework that improved response accuracy from 78% to 90% and supported Responsible AI standards.</p>
             <div className="project-tag-row">
               <span className="project-tag">RAG</span>
               <span className="project-tag">LLM</span>
@@ -85,44 +85,50 @@ export default function Home() {
         <h2>Skills &amp; Stack</h2>
         <div className="skills-grid">
           <div className="skill-group">
-            <div className="skill-group-title">Cloud &amp; Infra</div>
-            <div className="skill-tags">
-              <span className="skill-tag">AWS</span>
-              <span className="skill-tag">Google BigQuery</span>
-              <span className="skill-tag">Amazon Marketing Cloud</span>
-              <span className="skill-tag">Apache Spark</span>
-              <span className="skill-tag">Hadoop</span>
-              <span className="skill-tag">Airflow</span>
-              <span className="skill-tag">Teradata</span>
-            </div>
-          </div>
-          <div className="skill-group">
-            <div className="skill-group-title">ML &amp; AI</div>
+            <div className="skill-group-title">LLM &amp; AI</div>
             <div className="skill-tags">
               <span className="skill-tag">RAG</span>
               <span className="skill-tag">Prompt Engineering</span>
               <span className="skill-tag">LLM Evaluation</span>
+              <span className="skill-tag">LLM Benchmarking</span>
+              <span className="skill-tag">Responsible AI</span>
               <span className="skill-tag">Machine Learning</span>
+              <span className="skill-tag">K-means Clustering</span>
               <span className="skill-tag">Linear Regression</span>
-              <span className="skill-tag">Logistic Regression</span>
-              <span className="skill-tag">K-means clustering</span>
+              <span className="skill-tag">Logistic Regression</span>                  
             </div>
           </div>
           <div className="skill-group">
-            <div className="skill-group-title">Visualization</div>
-            <div className="skill-tags">
-              <span className="skill-tag">Tableau</span>
-              <span className="skill-tag">Amazon QuickSight</span>
-              <span className="skill-tag">Jupyter Notebook</span>
+            <div className="skill-group-title">Data Engineering</div>
+            <div className="skill-tags">            
+              <span className="skill-tag">AWS</span>
+              <span className="skill-tag">Apache Spark</span>
+              <span className="skill-tag">Airflow</span>
+              <span className="skill-tag">Google BigQuery</span>
+              <span className="skill-tag">Hadoop</span>
+              <span className="skill-tag">Teradata</span>
+              <span className="skill-tag">Amazon Redshift</span>
               <span className="skill-tag">ETL/ELT Pipelines</span>
               <span className="skill-tag">Data Modeling</span>
+              <span className="skill-tag">CI/CD</span>
+              <span className="skill-tag">Data Quality</span>
+            </div>
+          </div>
+          <div className="skill-group">
+            <div className="skill-group-title">Analytics &amp; BI</div>
+            <div className="skill-tags">
+              <span className="skill-tag">A/B Testing</span>              
+              <span className="skill-tag">Statistical Analysis</span>
+              <span className="skill-tag">Cohort Analysis</span>                                                                                     
+              <span className="skill-tag">Tableau</span>
+              <span className="skill-tag">Amazon QuickSight</span>
             </div>
           </div>
           <div className="skill-group">
             <div className="skill-group-title">Languages</div>
             <div className="skill-tags">
               <span className="skill-tag">SQL</span>
-              <span className="skill-tag">Python</span>
+              <span className="skill-tag">Python</span>              
             </div>
           </div>
         </div>
