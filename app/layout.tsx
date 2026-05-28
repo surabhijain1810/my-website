@@ -12,6 +12,13 @@ export const metadata: Metadata = {
     url: "https://www.surabhijain.ca",
     siteName: "Surabhi Jain",
     locale: "en_CA",
+    images: [
+      {
+        url: "/web-logo.png", // your logo or preview image
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
   },
 };
