@@ -78,7 +78,28 @@ export default function Home() {
               <span className="project-tag">Data Modeling</span>
             </div>
           </div>
+          <div className="card">
+  <h3>Analyticon 2026 — Interactive Data Visualization</h3>
+  <p>
+    Built an interactive analytics dashboard that transforms complex data into
+    an intuitive visual experience, enabling users to explore trends, patterns,
+    and insights through interactive visualizations.
+  </p>
 
+  <div className="project-tag-row">
+    <span className="project-tag">Data Visualization</span>
+    <span className="project-tag">Analytics</span>
+    <span className="project-tag">HTML</span>
+    <span className="project-tag">JavaScript</span>
+  </div>
+
+  <a
+    href="/projects/analyticon"
+    className="project-link"
+  >
+    Explore Dashboard →
+  </a>
+</div>
         </div>
       </section>
 
