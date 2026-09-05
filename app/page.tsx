@@ -81,9 +81,7 @@ export default function Home() {
           <div className="card">
   <h3>Analyticon 2026 — Interactive Data Visualization</h3>
   <p>
-    Built an interactive analytics dashboard that transforms complex data into
-    an intuitive visual experience, enabling users to explore trends, patterns,
-    and insights through interactive visualizations.
+    Built an interactive EDA dashboard using ATUS time-use data from 170K+ Americans, transforming complex survey data into intuitive visualizations that reveal trends, patterns, and insights.
   </p>
 
   <div className="project-tag-row">
